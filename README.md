@@ -29,7 +29,7 @@ If you would like to use this layout as a template for your own portfolio:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/mwallis45/My-Portfolio.git](https://github.com/mwallis45/My-Portfolio.git)
+   git clone https://github.com/mwallis45/My-Portfolio.git
    ```
 2. Open index.html in any modern web browser to preview locally.
 3. Update project links and assets in the root directory to point to your own repositories.
