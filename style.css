@@ -120,7 +120,7 @@
     background-color: var(--secondary-colour);
     color: var(--text-main);
     padding: 0.75rem 2rem;
-    box-shadow: 0 2px 8px var(--border-color);
+    box-shadow: 0px 2px 8px var(--border-color);
     transition: all 0.2s ease;
 }
 
@@ -185,7 +185,7 @@ body {
     font-weight: 300;
     background-color: var(--bg-main);
     color: var(--main-color);
-    margin: 40px;
+    margin: 0px;
     
     transition: all 0.2s ease;
 }
@@ -194,6 +194,8 @@ body {
     background-color: var(--bg-main);
     border-radius: 2px;
     padding: 2rem;
+    margin: 0rem 40px;
+
     transition: all 0.2s ease;
 }
 
@@ -231,4 +233,41 @@ p {
     font-family: 'NK57-Monospace', monospace;
     font-weight: 300;
     color: var(--text-main);
+}
+
+.info-text {
+    font-family: 'NK57-Monospace', monospace;
+    font-weight: 300;
+    color: var(--text-muted);
+    margin: 0rem 0rem 0rem 0.5rem;
+}
+
+h3 {
+    color: var(--trinary-colour);
+    font-family: 'NK57-Monospace', monospace;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 1.5rem 0rem 0.5rem 1rem;
+    padding-bottom: 0.25rem;
+}
+
+.link-button {
+    font-family: 'NK57-Monospace', monospace;
+    font-weight: 500;
+    font-size: 1rem;
+
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    border: 1px solid var(--bg-card);
+
+    display: inline-block;
+    text-decoration: none;
+
+    padding: 0.4rem 0.9rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.link-button:hover {
+    color: var(--secondary-colour);
 }
