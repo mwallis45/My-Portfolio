@@ -147,6 +147,7 @@ body {
     font-weight: 1;
     /* position */
     margin: 0px;
+    padding: 0rem 0rem 0rem 0rem;
     /* transition */
     transition: all 0.2s ease;
 }
@@ -211,6 +212,8 @@ h1 {
 
     font-size: 2rem;
     font-weight: 5;
+
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 h2 {
@@ -220,7 +223,7 @@ h2 {
     font-weight: 4;
 
     border-bottom: 1px solid var(--secondary-colour);
-    padding-bottom: 0.25rem;
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 h3 {
@@ -228,6 +231,8 @@ h3 {
 
     font-size: 1.5rem;
     font-weight: 4;
+
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 h4 {
@@ -235,6 +240,9 @@ h4 {
 
     font-size: 1.25rem;
     font-weight: 3;
+
+    
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 h5 {
@@ -242,6 +250,8 @@ h5 {
 
     font-size: 1.25rem;
     font-weight: 3;
+
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 h6 {
@@ -249,12 +259,16 @@ h6 {
 
     font-size: 1.25rem;
     font-weight: 2;
+    
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 p {
     color: var(--bg-one);
 
     font-weight: 1;
+
+    padding: 0rem 0rem 0rem 0rem;
 }
 
 ul {
